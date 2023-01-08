@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 const path = require("path");
 const { response } = require("express");
 
+
 app.use(bodyParser.json());
 app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname + "/public")));
