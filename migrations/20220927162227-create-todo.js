@@ -5,6 +5,7 @@ module.exports = {
     await queryInterface.createTable('Todos', {
       id: {
       
+      
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
